@@ -1,5 +1,9 @@
 public class CodeWordChecker implements StringChecker
 {
+    private int min;
+    private int max;
+    private String not;
+
     CodeWordChecker(int min, int max, String not)
     {
         this.min = min;
